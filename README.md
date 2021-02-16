@@ -95,8 +95,19 @@ For health check update index.html under /var/www/html/index.html
 ![image](https://user-images.githubusercontent.com/54719289/108119882-709b6600-70c6-11eb-9378-b236cac3bcf5.png)
 
 
-# Check the classic loadbalance instance:
-=========================================
+# Check the classic loadbalance instance with DNS:
+=================================================
+
+DNS formation will be 
+
+   wildcard + domain = DNS
+   
+   For example:
+   ===========
+   
+      Domain : hp.com
+      DNS    : store.hp.com
+
 classic-lb-sg-1738183899.us-east-1.elb.amazonaws.com
 
 ![image](https://user-images.githubusercontent.com/54719289/108120681-aa20a100-70c7-11eb-96fd-358538413212.png)
