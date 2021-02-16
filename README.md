@@ -117,4 +117,42 @@ classic-lb-sg-1738183899.us-east-1.elb.amazonaws.com
 ![image](https://user-images.githubusercontent.com/54719289/108120626-9412e080-70c7-11eb-87e3-83733b2d8a5b.png)
 
 
+# Load Balance check:
+
+
+![image](https://user-images.githubusercontent.com/54719289/108121967-98d89400-70c9-11eb-8ed9-6dba23ab41d6.png)
+
+
+# Route 53:
+
+![image](https://user-images.githubusercontent.com/54719289/108123996-ae02f200-70cc-11eb-883c-dde8f31f9bb6.png)
+
+![image](https://user-images.githubusercontent.com/54719289/108124093-cb37c080-70cc-11eb-9269-de13fa5aaaaf.png)
+
+![image](https://user-images.githubusercontent.com/54719289/108124159-e0145400-70cc-11eb-9b2e-6e557fee3e61.png)
+
+
+## Select nameserver from aws and paste it in freenom under your domain:
+
+![image](https://user-images.githubusercontent.com/54719289/108124499-4ef1ad00-70cd-11eb-9c1c-a3225844a606.png)
+
+![image](https://user-images.githubusercontent.com/54719289/108124784-97a96600-70cd-11eb-8699-fa2e024e69b6.png)
+
+![image](https://user-images.githubusercontent.com/54719289/108125247-35049a00-70ce-11eb-95c0-ae6a0994ff02.png)
+
+
+## To see the output of httpd.devopsclass.ml
+
+![image](https://user-images.githubusercontent.com/54719289/108125361-582f4980-70ce-11eb-9931-5fdbc6d49eae.png)
+
+
+# To update with classic balance DNS:
+
+![image](https://user-images.githubusercontent.com/54719289/108125857-18b52d00-70cf-11eb-8cda-08a598cf6f00.png)
+
+# Now we could see both server messages as updataed with classic load balancer:
+
+![image](https://user-images.githubusercontent.com/54719289/108126029-531eca00-70cf-11eb-81ec-198af5bfe5b5.png)
+
+
 
