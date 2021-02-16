@@ -155,4 +155,22 @@ classic-lb-sg-1738183899.us-east-1.elb.amazonaws.com
 ![image](https://user-images.githubusercontent.com/54719289/108126029-531eca00-70cf-11eb-81ec-198af5bfe5b5.png)
 
 
+# Attaching certificate:
+
+![image](https://user-images.githubusercontent.com/54719289/108126562-fff94700-70cf-11eb-86c7-77f89d54cca2.png)
+
+#CNAME - is certificate and click Create record in Route 53
+
+![image](https://user-images.githubusercontent.com/54719289/108126885-63837480-70d0-11eb-8e0f-67d7b5c9d7d7.png)
+![image](https://user-images.githubusercontent.com/54719289/108127009-9d547b00-70d0-11eb-9743-a6f96d7211be.png)
+
+# Route 53 update:
+
+![image](https://user-images.githubusercontent.com/54719289/108127142-c96ffc00-70d0-11eb-961c-65bdd441525f.png)
+
+
+# AFter updating certificate try the site with https, now page is secure:
+
+![image](https://user-images.githubusercontent.com/54719289/108128283-831b9c80-70d2-11eb-9bec-30fa241f8ee7.png)
+
 
