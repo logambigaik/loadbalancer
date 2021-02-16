@@ -35,3 +35,40 @@
                 Create Classic load balancer
       
  
+  Classical Load balance - creation:
+   =====================
+
+![image](https://user-images.githubusercontent.com/54719289/108116132-21066b80-70c1-11eb-8407-5c3f91bd7f95.png)
+![image](https://user-images.githubusercontent.com/54719289/108116277-527f3700-70c1-11eb-9c71-5b1e41ee019f.png)
+
+Under-secuirty group -select default one and do the same in creation :
+=============================================
+
+![image](https://user-images.githubusercontent.com/54719289/108116614-d89b7d80-70c1-11eb-98da-cee9c79c5699.png)
+
+or else create new security group:
+=================================
+
+![image](https://user-images.githubusercontent.com/54719289/108117359-d1c13a80-70c2-11eb-852a-839ecd0e7af2.png)
+
+Edit-inbound for newly created secuirty (classic-lb-sg):
+=======================================================
+
+sg-0e39e5e530c17006f - classic-lb-sg
+![image](https://user-images.githubusercontent.com/54719289/108117520-02a16f80-70c3-11eb-928c-89a8a221fb86.png)
+
+![image](https://user-images.githubusercontent.com/54719289/108117691-3f6d6680-70c3-11eb-867c-9eb250bf1431.png)
+![image](https://user-images.githubusercontent.com/54719289/108117732-52803680-70c3-11eb-9187-c1d4f25ca419.png)
+
+![image](https://user-images.githubusercontent.com/54719289/108118176-fa95ff80-70c3-11eb-9a87-be6ba423cb95.png)
+
+
+# Health Check : 
+==========
+
+For health check update index.html under /var/www/html/index.html
+
+![image](https://user-images.githubusercontent.com/54719289/108118346-3cbf4100-70c4-11eb-8d12-2371ce7f382d.png)
+
+
+ 
