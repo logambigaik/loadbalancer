@@ -94,3 +94,12 @@ For health check update index.html under /var/www/html/index.html
 ![image](https://user-images.githubusercontent.com/54719289/108119808-5497c480-70c6-11eb-8ae2-751f26ceab43.png)
 ![image](https://user-images.githubusercontent.com/54719289/108119882-709b6600-70c6-11eb-9378-b236cac3bcf5.png)
 
+
+# Check the classic loadbalance instance:
+=========================================
+classic-lb-sg-1738183899.us-east-1.elb.amazonaws.com
+
+![image](https://user-images.githubusercontent.com/54719289/108120681-aa20a100-70c7-11eb-96fd-358538413212.png)
+
+![image](https://user-images.githubusercontent.com/54719289/108120626-9412e080-70c7-11eb-87e3-83733b2d8a5b.png)
+
