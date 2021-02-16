@@ -105,12 +105,16 @@ DNS formation will be
    For example:
    ===========
    
-      Domain : hp.com
-      DNS    : store.hp.com
+      Domain            :  hp.com
+      DNS               :  store.hp.com
+      DNS of Jenkin     :  jenkins.hp.com
+      DNS of Springboot :  springboot.hp.com
 
 classic-lb-sg-1738183899.us-east-1.elb.amazonaws.com
 
 ![image](https://user-images.githubusercontent.com/54719289/108120681-aa20a100-70c7-11eb-96fd-358538413212.png)
 
 ![image](https://user-images.githubusercontent.com/54719289/108120626-9412e080-70c7-11eb-87e3-83733b2d8a5b.png)
+
+
 
