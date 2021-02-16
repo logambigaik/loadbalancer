@@ -72,3 +72,25 @@ For health check update index.html under /var/www/html/index.html
 
 
  
+# Add EC2 instances:
+===================
+
+![image](https://user-images.githubusercontent.com/54719289/108119506-e94df280-70c5-11eb-8ae7-41d8666baee8.png)
+
+
+# Keys (not neccessary):
+================
+
+![image](https://user-images.githubusercontent.com/54719289/108119627-15697380-70c6-11eb-86f7-f5b85cc83fe2.png)
+
+# Review and Launch:
+==============
+
+![image](https://user-images.githubusercontent.com/54719289/108119691-27e3ad00-70c6-11eb-9395-a2ec6e2fbc69.png)
+
+# After create, load balancer is ready:
+======================================
+
+![image](https://user-images.githubusercontent.com/54719289/108119808-5497c480-70c6-11eb-8ae2-751f26ceab43.png)
+![image](https://user-images.githubusercontent.com/54719289/108119882-709b6600-70c6-11eb-9378-b236cac3bcf5.png)
+
