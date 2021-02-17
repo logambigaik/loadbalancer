@@ -12,14 +12,16 @@
     Note: After update restart the service httpd (service httpd restart)
   
    
-# server-1
+# server-1 [port : 80]:
 
   ![image](https://user-images.githubusercontent.com/54719289/108255195-f203fe80-7181-11eb-902c-985c0c4fca0c.png)
 
-# server-2
+# server-2 { port 8080]:
+
   ![image](https://user-images.githubusercontent.com/54719289/108255151-e284b580-7181-11eb-9306-18f9ec393529.png)
 
-# Create Target Group for 80 and 8080
+# Create Target Group for 80 and 8080:
+
   ![image](https://user-images.githubusercontent.com/58024415/107869102-8afbf680-6eb0-11eb-9c59-c849d4e40c45.png)
   
   Click on Target Group
