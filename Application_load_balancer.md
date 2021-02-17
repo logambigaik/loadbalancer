@@ -9,12 +9,16 @@
   
   ![image](https://user-images.githubusercontent.com/54719289/108253867-48703d80-7180-11eb-8ae5-caaa1c968804.png)
 
+    Note: After update restart the service httpd (service httpd restart)
   
    
 # server-1
-  ![image](https://user-images.githubusercontent.com/58024415/107868307-69e3d780-6ea9-11eb-8869-7509527e6a5b.png)
+
+  ![image](https://user-images.githubusercontent.com/54719289/108255195-f203fe80-7181-11eb-902c-985c0c4fca0c.png)
+
 # server-2
-  ![image](https://user-images.githubusercontent.com/58024415/107868745-c85e8500-6eac-11eb-935b-017ffed8698a.png)
+  ![image](https://user-images.githubusercontent.com/54719289/108255151-e284b580-7181-11eb-9306-18f9ec393529.png)
+
 # Create Target Group for 80 and 8080
   ![image](https://user-images.githubusercontent.com/58024415/107869102-8afbf680-6eb0-11eb-9c59-c849d4e40c45.png)
   
