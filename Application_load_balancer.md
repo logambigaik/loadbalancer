@@ -41,11 +41,11 @@
   
   ![image](https://user-images.githubusercontent.com/54719289/108256374-77d47980-7183-11eb-9b84-667f85ea7af9.png)
   
-  Add only 80 port in TG1:
+  # Add only 80 port in TG1:
   
   ![image](https://user-images.githubusercontent.com/54719289/108256794-eaddf000-7183-11eb-9af0-fe94f3c7bd94.png)
 
-  Add another Target group for 8080 port:
+  # Add another Target group for 8080 port:
   
   ![image](https://user-images.githubusercontent.com/54719289/108257081-50ca7780-7184-11eb-822a-20e44f425167.png)
 
@@ -74,27 +74,37 @@
   ![image](https://user-images.githubusercontent.com/58024415/107869363-5473ab00-6eb3-11eb-8181-d1e28b092ae1.png)
 
   Click on Configure Routing
-  
-  ![image](https://user-images.githubusercontent.com/54719289/108258452-06e29100-7186-11eb-8e24-20cdf81cc206.png)
+
+ ![image](https://user-images.githubusercontent.com/54719289/108258907-883a2380-7186-11eb-95cc-763db95348d8.png)
+
 
 
   Click on Next: Register Targets
   
-  ![image](https://user-images.githubusercontent.com/58024415/107869396-900e7500-6eb3-11eb-81c2-32349b648277.png)
+ ![image](https://user-images.githubusercontent.com/54719289/108259010-a6a01f00-7186-11eb-9e18-856ce703c0ad.png)
+
 
   Click on Review
   Click on Create
   
-  ![image](https://user-images.githubusercontent.com/58024415/107869452-32c6f380-6eb4-11eb-9fed-d60246887901.png)
+ ![image](https://user-images.githubusercontent.com/54719289/108259081-bd467600-7186-11eb-8b0c-e0d80500df76.png)
+
+ ![image](https://user-images.githubusercontent.com/54719289/108259243-dea76200-7186-11eb-9a6b-3208e05d343c.png)
+   
 
   Click on Add Listeners
-  
-  ![image](https://user-images.githubusercontent.com/58024415/107869468-791c5280-6eb4-11eb-8784-ba703eef9656.png)
+  ![image](https://user-images.githubusercontent.com/54719289/108259411-10b8c400-7187-11eb-9cd9-c9baa26c58c4.png)
 
-  Click on Add listener
-  
-  ![image](https://user-images.githubusercontent.com/58024415/107869486-9a7d3e80-6eb4-11eb-9476-36dcb84e98d9.png)
+  ![image](https://user-images.githubusercontent.com/54719289/108259881-a2c0cc80-7187-11eb-96a4-b3d4db897060.png)
  
+  Now, we could see the TG1 and TG2 linked with Application Load Balance
+  
+  ![image](https://user-images.githubusercontent.com/54719289/108260085-e3b8e100-7187-11eb-9a3d-2c89190d7780.png)
+  ![image](https://user-images.githubusercontent.com/54719289/108260341-3c887980-7188-11eb-8620-3607aff70903.png)
+  ![image](https://user-images.githubusercontent.com/54719289/108260449-5aee7500-7188-11eb-815c-fb1233ac7fc1.png)
+
+
+
 # Check output of ALB using DNS name  
   ![image](https://user-images.githubusercontent.com/58024415/107869494-c3053880-6eb4-11eb-8c20-5c212b94d2f1.png)
   
