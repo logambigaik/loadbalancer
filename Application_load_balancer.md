@@ -56,8 +56,7 @@
 ![image](https://user-images.githubusercontent.com/58024415/107868427-4cfbd400-6eaa-11eb-9162-41b415535291.png)
   
   Click on Load Balancer
-  
-  ![image](https://user-images.githubusercontent.com/58024415/107868455-82082680-6eaa-11eb-9985-1b5cce1b875f.png)
+ 
 
   Click on Create Load Balancer
 
@@ -66,6 +65,8 @@
   Click on Create
   
   ![image](https://user-images.githubusercontent.com/58024415/107869319-ec24c980-6eb2-11eb-8f1a-d04587a6c2a8.png)
+   ![image](https://user-images.githubusercontent.com/54719289/108258001-9176c080-7185-11eb-838f-52239c9a3d41.png)
+   ![image](https://user-images.githubusercontent.com/54719289/108258066-aa7f7180-7185-11eb-97de-9b455b626f88.png)
 
   Click on Create Security Settings
   Click on Configure Security Groups
@@ -74,7 +75,8 @@
 
   Click on Configure Routing
   
-  ![image](https://user-images.githubusercontent.com/58024415/107869371-67867b00-6eb3-11eb-9b15-f43ba457e3b9.png)
+  ![image](https://user-images.githubusercontent.com/54719289/108258452-06e29100-7186-11eb-8e24-20cdf81cc206.png)
+
 
   Click on Next: Register Targets
   
