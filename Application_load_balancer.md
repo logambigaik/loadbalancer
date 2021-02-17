@@ -4,6 +4,13 @@
     Install httpd in both the servers
     server-1 should call by port "80"
     server-2 should call by port "8080"
+    
+ # Update listener port for httpd in server2 as 8080:[/etc/httpd/conf/conf.d]
+  
+  ![image](https://user-images.githubusercontent.com/54719289/108253867-48703d80-7180-11eb-8ae5-caaa1c968804.png)
+
+  
+   
 # server-1
   ![image](https://user-images.githubusercontent.com/58024415/107868307-69e3d780-6ea9-11eb-8869-7509527e6a5b.png)
 # server-2
