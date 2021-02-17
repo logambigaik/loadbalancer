@@ -34,13 +34,17 @@
 
   Click on Next
   
-  ![image](https://user-images.githubusercontent.com/58024415/107869246-04e0af80-6eb2-11eb-9700-43caf15cfa49.png)
+  ![image](https://user-images.githubusercontent.com/54719289/108256259-507dac80-7183-11eb-9266-4c0cc518e18b.png)
+
   
   Click on Create Target Group
   
-  ![image](https://user-images.githubusercontent.com/58024415/107869267-3d808900-6eb2-11eb-9c2e-70d479fc897e.png)
+  ![image](https://user-images.githubusercontent.com/54719289/108256374-77d47980-7183-11eb-9b84-667f85ea7af9.png)
+  
+
 # Create Appliation Load Balancer  
-  ![image](https://user-images.githubusercontent.com/58024415/107868427-4cfbd400-6eaa-11eb-9162-41b415535291.png)
+
+![image](https://user-images.githubusercontent.com/58024415/107868427-4cfbd400-6eaa-11eb-9162-41b415535291.png)
   
   Click on Load Balancer
   
