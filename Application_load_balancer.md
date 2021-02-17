@@ -41,6 +41,15 @@
   
   ![image](https://user-images.githubusercontent.com/54719289/108256374-77d47980-7183-11eb-9b84-667f85ea7af9.png)
   
+  Add only 80 port in TG1:
+  
+  ![image](https://user-images.githubusercontent.com/54719289/108256794-eaddf000-7183-11eb-9af0-fe94f3c7bd94.png)
+
+  Add another Target group for 8080 port:
+  
+  ![image](https://user-images.githubusercontent.com/54719289/108257081-50ca7780-7184-11eb-822a-20e44f425167.png)
+
+    
 
 # Create Appliation Load Balancer  
 
