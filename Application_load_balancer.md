@@ -4,24 +4,11 @@
     Install httpd in both the servers
     server-1 should call by port "80"
     server-2 should call by port "8080"
-    
- # Update listener port for httpd in server2 as 8080:[/etc/httpd/conf/conf.d]
-  
-  ![image](https://user-images.githubusercontent.com/54719289/108253867-48703d80-7180-11eb-8ae5-caaa1c968804.png)
-
-    Note: After update restart the service httpd (service httpd restart)
-  
-   
-# server-1 [port : 80]:
-
-  ![image](https://user-images.githubusercontent.com/54719289/108255195-f203fe80-7181-11eb-902c-985c0c4fca0c.png)
-
-# server-2 { port 8080]:
-
-  ![image](https://user-images.githubusercontent.com/54719289/108255151-e284b580-7181-11eb-9306-18f9ec393529.png)
-
-# Create Target Group for 80 and 8080:
-
+# server-1
+  ![image](https://user-images.githubusercontent.com/58024415/107868307-69e3d780-6ea9-11eb-8869-7509527e6a5b.png)
+# server-2
+  ![image](https://user-images.githubusercontent.com/58024415/107868745-c85e8500-6eac-11eb-935b-017ffed8698a.png)
+# Create Target Group for 80 and 8080
   ![image](https://user-images.githubusercontent.com/58024415/107869102-8afbf680-6eb0-11eb-9c59-c849d4e40c45.png)
   
   Click on Target Group
@@ -34,29 +21,17 @@
 
   Click on Next
   
-  ![image](https://user-images.githubusercontent.com/54719289/108256259-507dac80-7183-11eb-9266-4c0cc518e18b.png)
-
+  ![image](https://user-images.githubusercontent.com/58024415/107869246-04e0af80-6eb2-11eb-9700-43caf15cfa49.png)
   
   Click on Create Target Group
   
-  ![image](https://user-images.githubusercontent.com/54719289/108256374-77d47980-7183-11eb-9b84-667f85ea7af9.png)
-  
-  # Add only 80 port in TG1:
-  
-  ![image](https://user-images.githubusercontent.com/54719289/108256794-eaddf000-7183-11eb-9af0-fe94f3c7bd94.png)
-
-  # Add another Target group for 8080 port:
-  
-  ![image](https://user-images.githubusercontent.com/54719289/108257081-50ca7780-7184-11eb-822a-20e44f425167.png)
-
-    
-
+  ![image](https://user-images.githubusercontent.com/58024415/107869267-3d808900-6eb2-11eb-9c2e-70d479fc897e.png)
 # Create Appliation Load Balancer  
-
-![image](https://user-images.githubusercontent.com/58024415/107868427-4cfbd400-6eaa-11eb-9162-41b415535291.png)
+  ![image](https://user-images.githubusercontent.com/58024415/107868427-4cfbd400-6eaa-11eb-9162-41b415535291.png)
   
   Click on Load Balancer
- 
+  
+  ![image](https://user-images.githubusercontent.com/58024415/107868455-82082680-6eaa-11eb-9985-1b5cce1b875f.png)
 
   Click on Create Load Balancer
 
@@ -65,8 +40,6 @@
   Click on Create
   
   ![image](https://user-images.githubusercontent.com/58024415/107869319-ec24c980-6eb2-11eb-8f1a-d04587a6c2a8.png)
-   ![image](https://user-images.githubusercontent.com/54719289/108258001-9176c080-7185-11eb-838f-52239c9a3d41.png)
-   ![image](https://user-images.githubusercontent.com/54719289/108258066-aa7f7180-7185-11eb-97de-9b455b626f88.png)
 
   Click on Create Security Settings
   Click on Configure Security Groups
@@ -74,37 +47,26 @@
   ![image](https://user-images.githubusercontent.com/58024415/107869363-5473ab00-6eb3-11eb-8181-d1e28b092ae1.png)
 
   Click on Configure Routing
-
- ![image](https://user-images.githubusercontent.com/54719289/108258907-883a2380-7186-11eb-95cc-763db95348d8.png)
-
-
+  
+  ![image](https://user-images.githubusercontent.com/58024415/107869371-67867b00-6eb3-11eb-9b15-f43ba457e3b9.png)
 
   Click on Next: Register Targets
   
- ![image](https://user-images.githubusercontent.com/54719289/108259010-a6a01f00-7186-11eb-9e18-856ce703c0ad.png)
-
+  ![image](https://user-images.githubusercontent.com/58024415/107869396-900e7500-6eb3-11eb-81c2-32349b648277.png)
 
   Click on Review
   Click on Create
   
- ![image](https://user-images.githubusercontent.com/54719289/108259081-bd467600-7186-11eb-8b0c-e0d80500df76.png)
-
- ![image](https://user-images.githubusercontent.com/54719289/108259243-dea76200-7186-11eb-9a6b-3208e05d343c.png)
-   
+  ![image](https://user-images.githubusercontent.com/58024415/107869452-32c6f380-6eb4-11eb-9fed-d60246887901.png)
 
   Click on Add Listeners
-  ![image](https://user-images.githubusercontent.com/54719289/108259411-10b8c400-7187-11eb-9cd9-c9baa26c58c4.png)
-
-  ![image](https://user-images.githubusercontent.com/54719289/108259881-a2c0cc80-7187-11eb-96a4-b3d4db897060.png)
- 
-  Now, we could see the TG1 and TG2 linked with Application Load Balance
   
-  ![image](https://user-images.githubusercontent.com/54719289/108260085-e3b8e100-7187-11eb-9a3d-2c89190d7780.png)
-  ![image](https://user-images.githubusercontent.com/54719289/108260341-3c887980-7188-11eb-8620-3607aff70903.png)
-  ![image](https://user-images.githubusercontent.com/54719289/108260449-5aee7500-7188-11eb-815c-fb1233ac7fc1.png)
+  ![image](https://user-images.githubusercontent.com/58024415/107869468-791c5280-6eb4-11eb-8784-ba703eef9656.png)
 
-
-
+  Click on Add listener
+  
+  ![image](https://user-images.githubusercontent.com/58024415/107869486-9a7d3e80-6eb4-11eb-9476-36dcb84e98d9.png)
+ 
 # Check output of ALB using DNS name  
   ![image](https://user-images.githubusercontent.com/58024415/107869494-c3053880-6eb4-11eb-8c20-5c212b94d2f1.png)
   
